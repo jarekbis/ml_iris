@@ -18,7 +18,7 @@ dane = load_iris()
 
 # teraz obliczamy dopasowanie
 pipe.fit(dane["data"][:,2:], dane["target"])
-Pipeline(steps=[('standardscaler', StandardScaler()),('logisticregression', LogisticRegression())])
+#Pipeline(steps=[('standardscaler', StandardScaler()),('logisticregression', LogisticRegression())])
 
 from matplotlib.colors import ListedColormap
 import matplotlib.pyplot as plt
